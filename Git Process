@@ -1,0 +1,18 @@
+我们已经有了 Github 账号，现在需要你能新建一个仓库，并向仓库中提交上一个挑战的代码。你需要完整地执行一次对 GitHub 仓库的创建、克隆、提交、推送操作。
+
+1、在自己电脑中的浏览器上打开 GitHub 页面，登录账号后创建 shiyanlou-code 仓库。
+2、在实验环境中，克隆你的仓库到 /home/shiyanlou/Code 目录下。
+3、进入 cd /home/shiyanlou/Code/shiyanlou-code 中，新建 jump7.py 文件，并把你上个挑战的通过代码，复制进文件中保存。
+4、将全部修改添加到暂存区、创建提交、推送到自己的 GitHub 远程 shiyanlou-code 仓库
+
+cd Code
+git colne https://github.com/ccoverflow/shiyanlou-code.git
+cd shiyanlou-code
+touch jump7.py
+...
+git add jump7.py
+git config --global user.name 'ccoverflow'
+git config --global user.email 'q575125661@gmail.com'
+git commit -m 'jump7'
+git remote add jump https://github.com/ccoverflow/shiyanlou-code.git
+git push jump master
